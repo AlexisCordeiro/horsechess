@@ -1,23 +1,29 @@
 .chess-board {
-    display: grid;
-    grid-template-columns: repeat(8, 70px);
-    grid-template-rows: repeat(8, 70px);
-    margin: auto;
-    margin-top: 150px;
-    width: 560px;
-  }
-  
-  .square {
-    width: 70px;
-    height: 70px;
-  }
-  
-  .dark-square {
-    background-color: #769656; /* Cor escura */
-  }
-  
-  .light-square {
-    background-color: #eed19c; /* Cor clara */
-  }
-  
-  
+  display: grid;
+  grid-template-columns: repeat(8, 70px);
+  grid-template-rows: repeat(8, 70px);
+  margin: auto;
+  margin-top: 120px;
+  width: 560px;
+  border: 20px solid #8B4513;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.8)
+}
+
+.square {
+  width: 70px;
+  height: 70px;
+}
+
+.dark-square {
+  background-color: #769656;
+  /* Cor escura */
+}
+
+.light-square {
+  background-color: #eed19c;
+  /* Cor clara */
+}
+
+.selected{
+  background-color: #ffcc00;
+}
